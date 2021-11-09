@@ -1,0 +1,14 @@
+# compiled/specific files
+
+# OSX Specific files
+.DS_Store
+
+# folders
+/documents/
+/clustering_pipeline/__pycache__
+
+# file types
+*.aux
+*.log
+*.synctex.gz
+.ipynb_checkpoints
