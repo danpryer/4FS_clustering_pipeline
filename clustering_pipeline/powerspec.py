@@ -38,7 +38,7 @@ job_rank = int(sys.argv[1])
 cat_vars_path = 'catalogue_vars/2021_05_catalogue_vars'
 
 # specify if working in 'real' or 'redshift' space
-real_or_redshift = 'real'
+real_or_redshift = 'redshift'
 
 # mass assignment scheme to be used ['cic', 'tsc']
 window = 'tsc'

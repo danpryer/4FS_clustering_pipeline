@@ -19,7 +19,7 @@ module load gnu_comp/7.3.0
 module load openmpi/3.0.1
 
 
-tracer='QSO'  # ['BG', 'LRG', 'QSO', 'LyA']
+tracer='LRG'  # ['BG', 'LRG', 'QSO', 'LyA']
 catalogue='output' # ['input', 'output']
 Nmesh=1024   # FFT mesh resolution, [128, 256, 512, 1024...]
 Nbins_Z=6  # number of redshift bins. Recommended for [BG, LRG, QSO, LyA] are [6, 11, 12, 10]
@@ -28,9 +28,9 @@ window='tsc' # ['cic', 'tsc']
 interlaced=1  # 0=False, 1=True
 compensated=1  # 0=False, 1=True
 
-real_or_redshift='redshift' # working in real or redshift space coords ['real', 'redshift']
+real_or_redshift='real' # working in real or redshift space coords ['real', 'redshift']
 
-dk=0.05 # linear bin width. Recommended for [BG, LRG, QSO, LyA] are [0.05, 0.04, 0.025, 0.025]
+dk=0.05 # linear bin width. Recommended for [BG, LRG, QSO, LyA] are [0.05, 0.05, 0.025, 0.025]
 
 
 
